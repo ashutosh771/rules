@@ -2,6 +2,7 @@ rule Monitor_File_Uploads_To_ChatGPT {
     meta:
         author = "Ashutosh Barot | @ashu_barot "
         description = "This rule watches for File uploads to chatGPT [Experimental Rule]"
+        reference = "https://github.com/ashutosh771/rules/blob/main/monitor_file_uploads_chatGPT.yara"
         date = "29-Sep-2023"
   
     strings:
